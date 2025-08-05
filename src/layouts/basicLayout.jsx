@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import TopMenuComponent from "../components/menu/topMenu";
 import LeftMenuComponent from "../components/menu/leftMenu";
-import { useAlert } from "../contexts/AlertContext"; // 🔔 피크 알림 컨텍스트
+import { useAlert } from "../contexts/alertContext"; // 🔔 피크 알림 컨텍스트
 
 function BasicLayout({ children }) {
   const { isPeak, peakTime } = useAlert();
