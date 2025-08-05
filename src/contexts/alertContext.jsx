@@ -1,5 +1,5 @@
 //앱 전체에서 접근 가능을 위한 전역 컨텍스트
-
+//
 import { createContext, useContext, useState, useEffect } from "react";
 import { fetchPeakAlert } from "../apis/alertApi";
 
