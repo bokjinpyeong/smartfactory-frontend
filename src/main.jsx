@@ -5,7 +5,7 @@ import router from './router/root';
 import { RouterProvider } from 'react-router-dom';
 
 import { AuthProvider } from "./contexts/authContext";
-import { PowerChartProvider } from "./contexts/PowerChartContext";
+import { PowerChartProvider } from "./contexts/powerChartContext";
 import { AlertProvider } from "./contexts/alertContext";
 import { PowerTypeProvider } from "./contexts/powerTypeContext";
 
